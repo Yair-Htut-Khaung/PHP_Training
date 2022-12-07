@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+  
+}
+h1{
+  color: tomato;
+  font-size: 20px;
+  padding: 30px;
+}
+.box1,.box2{
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  margin: 0px !important;
+  padding: 0px !important;
+
+}
+.box1{
+  background-color: black;
+  display: inline-block;
+}
+.box2{
+  background-color: white;
+  display: inline-block;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  
+}
