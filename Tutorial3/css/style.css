@@ -1,0 +1,21 @@
+.position {
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid blueviolet;
+  background-color: whitesmoke;
+
+}
+.submit {
+  padding: 6px 10px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 10px;
+  outline: none;
+  border-radius: 6px;
+}
+.error {
+  color: red;
+}
