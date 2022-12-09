@@ -18,7 +18,6 @@
         <?php
         if (isset($_POST['submit'])) {
             $submit_date = $_POST['date'];
-            echo "$submit_date, so <br>";
 
             $userinput_date = new DateTime($submit_date);
             //input submit is string type so change it to time format
@@ -31,7 +30,7 @@
             } else {
                 $_age = floor((time() - strtotime($submit_date)) / 31556926);
                 //31556926 is 31556926s in a year
-                echo "Your age is : $_age";
+                echo "<h3 class='h3'>Your age is : $_age</h3>";
             }
         }
         ?>

@@ -16,7 +16,7 @@
 
     $row = 0; // loop for each row and decide how many times * will echo with $col_num count
     $col_num = 0; // loop for column at maximum count 11*
-    $space = 5; // place for space before actually echo'*' place
+    $space = 6; // place for space before actually echo'*' place
 
     echo "<div class='star'>";
 
@@ -30,9 +30,9 @@
             {
                 echo "";
             } else {
-                echo "&nbsp";
+                echo "<span class='space'>&nbsp</span>";
             }
-            echo "&nbsp";
+            echo "<span class='space'>&nbsp</span>";
             $row++;
         }
         if (($col_num % 2) == 0) 
@@ -60,7 +60,7 @@
     }
 
     $col_bottom = 9;
-    $space = 3;
+    $space = 4;
     while ($col_bottom >= 0) 
     {
         $row = 0;
@@ -70,7 +70,7 @@
             {
                 echo " ";
             } else {
-                echo "&nbsp";
+                echo "<span class='space'>&nbsp</span>";
             }
             $row++;
         }
@@ -82,7 +82,7 @@
             {
                 echo " ";
             } else {
-                echo "* ";
+                echo " * ";
             }
             $row++;
         }
