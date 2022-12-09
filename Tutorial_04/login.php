@@ -39,7 +39,7 @@ function test_input($data)
 </head>
 <body>
     <p>
-        Our web is now currently developing Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore alias dolores quidem doloribus sint ullam provident, vel repellendus, doloremque a nihil eligendi eveniet repudiandae quis odit adipisci ducimus, veritatis quas?
+        Our web is now currently developing Lorem ipsum dolor sit aaamet consectetur, adipisicing elit. Tempore alias dolores quidem doloribus sint ullam provident, vel repellendus, doloremque a nihil eligendi eveniet repudiandae quis odit adipisci ducimus, veritatis quas?
     </p>
     <a href="logout_form.php" class="logout">Logout</a>
 </body>

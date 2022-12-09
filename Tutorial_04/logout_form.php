@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Logout succeful we are redirecting you to index form in 5s</h1>
+  <h1>Logout succeful we are redirecting you to index form in 3s</h1>
   <?php
   header("refresh:3;url=index.php");
   ?>
