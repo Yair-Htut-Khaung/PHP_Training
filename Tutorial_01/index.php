@@ -27,7 +27,7 @@
         {
             if (($chess_column % 2) == 0) 
             {
-                //decide white box or black box according to $row
+                //decide white box or black box according to $row number
                 if (($chess_row % 2) == 0) 
                 {
                     echo "<td class='box2'></td>";
