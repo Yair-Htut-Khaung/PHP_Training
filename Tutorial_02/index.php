@@ -16,7 +16,7 @@
 
     $row = 0; // loop for each row and decide how many times * will echo with $col_num count
     $col_num = 0; // loop for column at maximum count 11*
-    $space = 6; // place for space before actually echo'*' place
+    $space = 6; // place for space before actually echo'*' placement
 
     echo "<div class='star'>";
 
