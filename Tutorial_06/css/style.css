@@ -1,5 +1,5 @@
 .header{
-  color: blueviolet;
+  color: #8423de;
   font-size: 30px;
   text-align: center;
 }
@@ -7,7 +7,8 @@
   width: 184px;
   height: 28px;
   padding: 10px;
-  border: 1px solid blueviolet;
+  border: 1px solid #8423de;
+  background-color: #f7ebfb;
   outline:none;
   border-radius: 4px;
 }
@@ -19,8 +20,8 @@
   height: 550px;
   margin: 30px auto;
   padding: 50px;
-  border: 2px solid blueviolet;
-  box-shadow: blueviolet 0px 0px 4px;
+  border: 2px solid #8423de;
+  box-shadow: #8423de 0px 0px 4px;
   background-color: #f7ebfb;
   border-radius: 6px;
 }
@@ -28,15 +29,15 @@
   width: 184px !important;
   margin: 32px 0;
 }
-table{
-  margin: 50px auto;
+.table{
+  margin: 50px auto 18px;
 }
 .pos-submit{
   text-align: right;
 }
-.submit{width: 112px;height: 31px;border: none;background: blueviolet;color: white;outline: none;cursor: pointer;border-radius: 5px;}
+.submit{float: right;width: 112px;height: 31px;border: none;background: #8423de;color: white;outline: none;cursor: pointer;border-radius: 5px;}
 .submit:hover{
-  background-color:darkviolet;
+  background-color:#9f05e1;
 }
 .show-div{
   clear:both;
@@ -45,7 +46,7 @@ table{
   overflow: scroll;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid #0a0909;
   text-align: center;
 }
 .show-img{
@@ -56,17 +57,12 @@ table{
   padding: 10px;
   object-fit: cover;
 }
-td{
-  width: 100px;
-}
-
-
 .delete{
   margin: 0 auto;
   margin-top: 5px;
   padding: 3px 22px;
   border: none;
-  background-color: red;
+  background-color: #e70808;
   color: white;
   font-size: 10px;
   text-align: center;
@@ -74,15 +70,14 @@ td{
   border-radius: 13px;
 }
 .delete:hover{
-  background-color: darkred;
+  background-color: #920303;
 }
-
 .warning{
   width: 700px;
   height: 300px;
   margin: 0 auto;
   padding: 50px;
-  border: 1px solid blueviolet;
+  border: 1px solid #8423de;
   background-color: #f7ebfb;
   border-radius: 5px;
 }
@@ -90,17 +85,38 @@ td{
 .error,
 .warn{
   padding: 15px;
-  background-color: gainsboro;
-  font-size: 20px;
+  background-color: #fff8f8;
+  font-size: 15px;
   text-align: center;
   border-radius: 5px;
 }
 .succ{
-  color: green;
+  color: #09d609;
 }
 .error{
-  color: red;
+  color: #ec0808;
 }
 .warn{
-  color:yellow;
+  color: #c8d920;
+}
+
+.show-listul{
+  clear: both;
+
+}
+.show-list{
+  display: block;
+  float: left;
+  width: 100px;
+}
+.show-listul .succ,
+.show-listul .error{
+  display: block;
+  padding: 10px;
+  font-size: 13px;
+}
+.current-folder{
+  padding: 8px;
+  color: #8526dd;
+  font-size: 15px;
 }
