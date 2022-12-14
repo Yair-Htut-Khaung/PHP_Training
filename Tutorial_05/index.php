@@ -40,7 +40,8 @@
 
             // (B2) OUTPUT HTML
             echo "<tr class='first-row'>";
-            foreach ($cellIterator as $cell) {
+            foreach ($cellIterator as $cell)
+            {
                 echo "<td>" . $cell->getValue() . "</td>";
             }
             echo "</tr>";
@@ -53,7 +54,8 @@
 
     function readWord($filename)
     {
-        if (file_exists($filename)) {
+        if (file_exists($filename))
+        {
             if (($fh = fopen($filename, 'r')) !== false)
             {
 
