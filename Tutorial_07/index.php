@@ -31,7 +31,7 @@
                 $text = $_POST['qr_text'];
                 $rad = rand();
                 //store random.png
-                $location = "../Tutorial_07/generate/" . $rad . ".png";
+                $location =  $rad . ".png";
                 QRcode::png($text, $location);
                 echo '<img src="' . $location . ' " class="qr-code" />';
                 echo '<p class="succ">QR generated successfully in folder</p>';

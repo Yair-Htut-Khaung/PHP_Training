@@ -3,35 +3,22 @@ require 'carbontest.php';
 
 use Carbon\Carbon;
 
-$mysqli = new mysqli("localhost", "root", "zerozero");
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$db = "yair_htut_khaung";
 
-// Check connection
-if ($mysqli->connect_errno)
-{
-    echo "Failed to connect to MySQL: " . $mysqli->connect_error;
-    exit();
-}
 
-$db = "events";
-// Create database
-$sql = "CREATE DATABASE events";
-if ($conn->query($sql) === TRUE)
-{
-    echo "Database created successfully";
-} else {
-    echo "Error creating database: " . $conn->error;
-}
 
 $conn = new mysqli($servername, $username, $password, $db);
 
 // Check connection
 if ($conn->connect_error)
 {
-  die("Connection failed: " . $conn->connect_error);
+    die("Connection failed: " . $conn->connect_error);
 }
 
-// sql to create table
-$sql = "CREATE TABLE EventList (
+$sql = "CREATE TABLE `EventList` (
     id INT(6) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255),
     content text NULL,
@@ -42,9 +29,9 @@ $sql = "CREATE TABLE EventList (
 
 if ($conn->query($sql) === TRUE)
 {
-    echo "Table MyGuests created successfully";
+    echo "Table created successfully";
 } else {
-    echo "Error creating table: " . $conn->error;
+    // echo "Error creating table: " . $conn->error;
 }
 
 function getRandomString($length)
@@ -58,7 +45,7 @@ function getRandomString($length)
 }
 
 // prepare and bind
-$stmt = $mysqli->prepare("INSERT INTO EventList (title, content, is_published, created_datetime) VALUES (?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO EventList (title, content, is_published, created_datetime) VALUES (?, ?, ?, ?)");
 $stmt->bind_param("ssss", $title, $content, $is_published, $date);
 // set parameters and execute
 for ($i = 1; $i < 2005; $i++)

@@ -2,30 +2,13 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "zerozero";
+$password = "root";
+$db = "user";
 
 
 
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password, $db);
 
-// Check connection
-if ($conn->connect_error)
-{
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "connection success";
-
-// Create database
-$dbname = "users";
-$sql = "CREATE DATABASE users";
-if ($conn->query($sql) === TRUE)
-{
-    echo "Database created successfully";
-} else {
-    echo "Error creating database: " . $conn->error;
-}
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error)
 {

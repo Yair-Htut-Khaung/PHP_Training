@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+        <form method="post" action="">
             <table class="table-comn">
                 <tr>
                     <th>Create Post</th>

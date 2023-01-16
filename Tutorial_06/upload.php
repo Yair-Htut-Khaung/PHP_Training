@@ -25,8 +25,11 @@
             $folder_name = test_input($_POST["name"]);
 
             //make folder if dont have folder from name that enter form input field index.php
-            if (!is_dir('C:/Apache24/htdocs/Tutorial_06/' . $folder_name)) {
-                mkdir('C:/Apache24/htdocs/Tutorial_06/' . $folder_name, 0777, true);
+            // if (!is_dir('C:/Apache24/htdocs/yair_htut_khaung/PHP_Training/Tutorial_06/' . $folder_name)) {
+            //     mkdir('C:/Apache24/htdocs/yair_htut_khaung/PHP_Training/Tutorial_06/' . $folder_name, 0777, true);
+            // }
+            if (!is_dir( $folder_name)) {
+                mkdir( $folder_name, 0777, true);
             }
 
             //action to put image file to created folder
