@@ -1,0 +1,84 @@
+.clear-fix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.wrapper{
+    width: max-content;
+    border-radius: 7px;
+    height: max-content;
+    margin: 18vh auto;
+    /* padding: 50px; */
+    border: 1px solid blue;
+}
+.header{
+    font-size:25px;
+    font-weight: 700;
+    color: blue;
+    padding-bottom: 30px;
+}
+#textforQR{
+    resize: none;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+#textforQR:focus{
+    border-color: blue;
+}
+.generate{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    color: white;
+    cursor: pointer;
+}
+.generate:hover{
+    background-color:darkblue;
+    transition: all 0.4s ease 0s;
+    transform: scale(1.03);
+
+}
+.enter-textblk{
+    padding: 30px;
+}
+
+.qr-display{
+    padding: 30px;
+    width: 360px;
+    text-align: center;
+    margin: 0 auto;
+    height: 367px;
+    background-color: blue;
+}
+.qr-display .header{
+    color: white;
+
+}
+.qr-code{
+    width: 200px;
+    height: 193px;
+    margin: 0 auto;
+}
+.succ{
+    color: black;
+    margin: 30px;
+    font-size: 11px;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 10px;
+    background: lime;
+}
