@@ -6,10 +6,10 @@
 
 
 
-<h2 style="margin:20px;">Import / Student Lists </p>
+<h2 style="margin:20px;">Import / Student List </p>
 <img src="import_student.png">
 
-<h2 style="margin:20px;"> Export / Student Lists </p>
+<h2 style="margin:20px;"> Export / Student List </p>
 <img src="export_students.png">
 
 
