@@ -1,6 +1,6 @@
 # Assignment 04
 
-<h1>first create the database and migrate tables</h1>
+<h1>First create the database and migrate tables</h1>
 
 <p> Home page will be student list but please fill the majors first for adding students need one major </p>
 
