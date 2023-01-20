@@ -27,7 +27,7 @@ if ($cookie != " ")
                     <td><input type="text" class="input-field" required name="name" id="folder" ></td>
                 </tr>
                 <tr>
-                    <td><span>Choose the image :</span></td>
+                    <td><span>Choose the image : </span></td>
                     <td><input type="file" name="fileToUpload" id="fileToUpload" class="first-col" required></td>
                 </tr>
                 <tr>
