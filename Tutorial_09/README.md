@@ -2,7 +2,7 @@
 
 <b>Instructions</b>
 <p>-First open seeder.php and change your system username and password for db connection</p>
-<p>-change the path direction of lib/carbon-2.64.0/ autoload.in seeder.php to your system directory .. for some reason I cant make it dynamically </p>
+<p>-change the path direction of lib/carbon-2.64.0/ autoload.in seeder.php to your system directory ... for some reason I cant make it dynamically </p>
 <p>-Run the seeder.php .. the rand data will should be filled up the database automiticallly </p>
 
 
