@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding: 20px 0px;
+  color: blueviolet;
+  font-size: 25px;
+  text-align: center;
+}
+
+.logout {
+  padding: 7px 18px;
+  background: blueviolet;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  border-radius: 13px;
+}
+
+.login-form {
+  width: 700px;
+  margin: 0 auto;
+  padding: 69px;
+  background: aliceblue;
+}
+
+td {
+  width: 113px;
+}
+
+table {
+  margin: 0 auto;
+}
