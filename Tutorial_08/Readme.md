@@ -1,4 +1,4 @@
-# Tutorail 08
+# Tutorial 08
 
 <b>Preview</b>
 

@@ -1,6 +1,6 @@
 # SCM FRAME LARAVEL
 
-<h4 style="margin-top:20px">Home Page<h4>
+<h4 style="margin-top:20px">Home Page <h4>
 
 <img src="home.png">
 

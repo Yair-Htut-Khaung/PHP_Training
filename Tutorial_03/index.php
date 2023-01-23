@@ -34,7 +34,7 @@
                 echo "<p class='error'>Sorry, the day you select is in future .. please choose your birthday</p>";
             } else {
                 $_age = floor((time() - strtotime($submit_date)) / 31556926);
-                //31556926 is 31556926 seconds in a year
+                //31556926 is 31556926 seconds in a year 
                 echo "<h3 class='h3'>Your age is : $_age</h3>";
             }
         }
